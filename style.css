@@ -19,7 +19,8 @@ body {
 }
 
 .navbar a {
-  font-weight: 200;
+  font-weight: 600;
+  font-size: larger;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
@@ -277,4 +278,18 @@ h4 {
 ::placeholder{
   color: rgba(255, 255, 255, 0.582);
   font-family: 'Raleway', sans-serif;
+}
+
+.cv {
+  display: block;
+  width: 50%;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 4px;
+  padding: 10px 10px;
+  border: none;
+  color: #3498db;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
 }
